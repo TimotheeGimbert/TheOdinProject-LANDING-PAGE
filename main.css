@@ -1,0 +1,160 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1F2937;
+    padding: 48px 11%;
+    padding-bottom: 24px;
+}
+    header > div {
+        display: flex;
+        align-items: center;
+    }
+    header img {
+        width: 120px;
+    }
+    header h1 {
+        padding-left: 11%;
+        font-size: 24px;
+        color: #F9FAF8;
+    }
+    nav {
+        display: flex;
+    }
+    nav p {
+        margin-left: 48px;
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 48px 22%;
+    background-color: #1F2937;
+}
+    .hero__content h1 {
+        margin-bottom: 0;
+
+        font-size: 48px;
+        font-weight: extra-bold;
+        color: #F9FAF8;
+    }
+    .hero__content p {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+    .hero img {
+        width: 300px;
+        border-radius: 33px;
+    }
+    .hero button {
+        align-self: flex-end;
+        background-color: #3882F6;
+        border-color: #3882F6;
+        color: #F9FAF8;
+        font-weight: bold;
+        padding: 6px;
+    }
+
+
+.information {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0;
+
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+    .information h2 {
+        margin: 48px 0;
+    }
+    .information .stickers {
+        display: flex;
+        justify-content: center;
+    }
+    .element {
+        margin: 0 24px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .element img {
+        width: 100px;
+        border: 3px solid #7490bd;
+        border-radius: 11px;
+        padding: 12px;
+    }
+
+
+figure {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 48px 0;
+    padding: 110px 0;
+
+    background-color: #E5E7EB;
+    
+}
+    blockquote {
+        font-size: 24px;
+        font-weight: light;
+        font-style: italic;
+        color: #1F2937;
+    }
+    figcaption {
+        font-style: 16px;
+        font-weight: bold;
+        align-self: end;
+        margin-right: 33%;
+        
+    }
+
+
+aside {
+    display: flex;
+    justify-content: center;
+    margin: 66px 0;
+}
+    .invitation {
+        display: flex;
+        align-content: space-between;
+        background-color: #3882F6;
+        color: #F9FAF8;
+        border-radius: 22px;
+        padding: 48px 110px;
+    }
+            .content > * {
+                margin: 0;
+            }
+            .content p {
+                color: #E5E7EB;
+            }
+        .invitation .btn {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+            .btn button {
+                background-color: transparent;
+                color: white;
+                font-weight: bold;
+                border: 2px solid white;
+                border-radius: 6px 11px;
+                padding: 6px 22px;
+                margin-left: 110px;
+        }
+
+
+footer {
+    background-color: #1F2937;
+    padding: 12px;
+    text-align: center;
+    color: #E5E7EB;
+}
